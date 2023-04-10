@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --parasize:2rem;
+    --pupcolor:red;
+   --fontsizeheading:3rem;
+}
+
+html{
+font-size: 62.5%;
+}
+
+.container{
+
+    background-color: #e5e5fd;
+   min-height: 100vh;
+border: 10px solid black;
+}
+.content{
+    max-width: 1000px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+}
+
+
+/* === Top Section  Start=== */
+/* */
+.top_section{
+  
+ margin-top:2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items:end; 
+     flex-wrap: wrap;
+   
+}
+.Image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Image_container ,img{
+    height: 250px;
+    width: 260px;
+    /* margin-right: 250px; */
+    
+}
+.top_section h1{
+font-size: var(--fontsizeheading);
+font-weight:700;
+text-transform: uppercase;
+}
+.top_section,h4 {
+    font-size:var(--fontsizeheading);
+     /* 2rem; */
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+/* === Top Section  Ends=== */
+
+/* === Top About  Section  Start=== */
+
+/*  ======   About Section  ========
+    ======        Start     ========        */
+.about,h1{
+font-size: var(--fontsizeheading);
+font-weight: 700;
+margin-top: 2rem;
+}
+.about,p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.3rem;
+    letter-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+ /*  ======   About Section  ========
+     ======        Ends      ========   */
+
+
+/*  ======   last Section  ========
+======        Start     ========        */
+.last{
+   
+    font-size: var(--fontsizeheading);
+        font-weight: 600;
+       margin-top: 20px;
+      
+      
+}
+.last,h2 {
+
+    font-size: var(--fontsizeheading);
+    font-weight: 600;
+    margin-top: 20px;
+
+
+}
+.last,ul {
+    margin-left: 40px;
+    
+}
+.last,li{
+    margin-left: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+font-size: var(--parasize);
+    letter-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+ /*  ======   last Section  ========
+ ======        Ends     ========        */
+.footers{
+     margin-top: 40px;
+    margin-bottom: 40px;
+     align-items: end;
+     display: flex;
+     align-items: end;
+     justify-content: end;
+} 
+ @media (min-width:553px) and (max-width:775px) {
+.content {
+        padding: 0px 1.5rem;
+    }
+    .top_section h1{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+   about h1{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+        h4{
+        font-size: 1.7rem;
+            font-weight: bold;
+        }
+    .about p{
+        font-size: 1.7rem;
+    }
+    .last h2{
+    font-size: 2rem;
+    }
+    .last ul li{
+        font-size: 1.7rem;
+    }
+
+ }
+ @media  (min-width:685px) and (max-width:1019px){
+.content{
+    padding: 0px 1.5rem;
+}
+ }
+
+  @media (min-width:0px) and (max-width:548px) {
+      .content {
+          padding: 0px 1.5rem;
+      }
+      .top_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+           
+  
+    
+          
+
+
+  }
+ 

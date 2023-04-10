@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+input {
+    display: block;
+    padding:10px ;
+    border-radius: 4px;
+    border-color:rgba(11, 10, 10, 0.7);
+        width: 260px;
+        margin-bottom: 5px;
+        margin-top: 2px;
+
+}
+textarea{
+
+    display: block;
+        padding: 10px;
+        border-radius: 4px;
+        border-color: rgba(11, 10, 10, 0.7);
+        width: 580px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+}
+.web{
+    font-size: 20px;
+}
+.container{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: gray;
+
+}
+.content{
+    width: 640px;
+    height: 540px;
+    margin: 0 auto;
+    background-color:white;
+     /* antiquewhite; */
+   padding-left: 30px;
+   box-shadow: 3px,4px,5px,rgba(1, 1, 1, 0.3);
+  
+}
+.content,h1{
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+/* ====    First last Textfield Start  === */
+.first_last{
+    display: flex;  
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+
+}
+.first_name{
+    padding-right: 60px;
+}
+
+
+/* -----   First last Textfield Ends ----- */
+
+/* ====    Email   And Job Start  === */
+
+.email_jobrole {
+   
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row;
+
+   
+   
+}
+select{
+    padding: 10px;
+        border-radius: 4px;
+        border-color: rgba(11, 10, 10, 0.7);
+        width: 260px;
+        margin-bottom: 5px;
+        margin-top: 2px;
+}
+.email{
+    padding-right: 60px;
+}
+/* -----    Email   And Job Ends  ----- */
+
+/* ====    Address Start  === */
+
+.Address{
+margin-bottom: 15px;
+}
+/* ------  Address Ends  ----- */
+
+/* ====    Address city And pin code Starts  === */
+
+.city_pincode{
+    display: flex;
+margin-bottom: 15px;
+}
+.city{
+    padding-right: 60px;
+}
+/* ------    Address city And pin code Ends ---- */
+
+/* ==== Start Date And Upload Cv Starts ---- */
+
+.startdate_uploadyour_cv{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.start_date{
+    padding-right: 60px;
+}
+#Upload_cvs{
+    height: 40px;
+   
+    display: block;
+   border: 2px solid rgba(11, 10, 10, 0.7);;
+        border-radius: 4px;
+        
+     
+    }
+        .apply{
+      
+          
+            display: flex;
+            
+            justify-content: end;
+           
+        }
+        #applys{
+            width: 100px;
+            height: 40px;
+            padding: 5px;
+            background-color: red;
+            border-radius: 4px;
+            margin-right: 10px;
+            color: white;
+            animation: 1.s ease-in-out;
+            transition: 1.2s ease-out;
+
+        }
+        #applys:hover{
+            background-color:purple;
+        color: white;
+            cursor: pointer;
+            animation: 1.s ease-in;
+            transition: 1.2s ease-in;
+        }
+
+
+
+
+/* ------  Start Date And Upload Cv Ends ---- */

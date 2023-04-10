@@ -1,0 +1,122 @@
+
+
+
+@media (min-width:1651px) and (max-width:1943px) {
+ 
+    .homeimg h1{
+font-size: 4rem;
+  }
+   .homeimg h3 {
+       font-size: 3rem;
+   }
+        .homeimg p {
+            font-size: 2rem;
+        }
+    .navsection {
+        height: 6rem;
+        width: 100vw;
+      }
+
+    .nav {
+       
+        height: 6rem;
+        width: 90%;
+       font-size: 2rem; 
+    }
+
+    .linkitem{
+        gap: 3rem;
+    }
+   
+    .musicfirst {
+
+font-size:3rem;
+    }
+   .million{
+    font-size: 3rem;
+   }
+   .para{
+    font-size: 2rem;
+   }
+   button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+       border: none;
+       padding: 1.5rem;
+
+
+   }
+   .btn-primary {
+      font-size: 1.5rem;
+   }
+   .orangemusic{
+    font-size: 2rem;
+   }
+   .newmoveontv{
+    margin-top: 25rem;
+   }
+   .moviecollection{
+    width: 70rem;
+   }
+   .moviecollection h2{
+font-size: 2rem;
+   }
+   .moviecollectionpara p{
+    font-size: 2rem;
+    text-align: justify;
+   }
+   
+   .btn-secondry{
+    font-size: 1.5rem;
+    padding: 1.5rem 3.5rem;
+   }
+   .hero{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+   }
+   .mainpageimage img{
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+   }
+   .aboutcontainer h1{
+    margin-top:4rem;
+    text-align: center;
+    width:70rem;;
+    font-size: 3rem;
+   }
+   .aboutpara p{
+    font-size: 2rem;
+   }
+   .gift{
+
+    border: 2px solid red;
+    width: 100rem;
+    margin: 0 auto;
+   }
+   .giftheading h1{
+    font-size: 4rem;
+   }
+   .giftcontent{
+    justify-content: space-around;
+
+   }
+   .hole{
+
+    max-width: 70rem;
+   }
+   .giftpara p{
+    width: 70rem;
+    border: 2px solid red;
+    font-size: 2rem;
+   }
+   .anotherpara{
+    font-size: 2rem;
+   }
+   .gidtimg img{
+    width: 30rem;
+    height: 30rem;
+   }
+}
+

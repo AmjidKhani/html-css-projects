@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+
+    /* font-family: 'Roboto', sans-serif; */
+
+    font-family: "Roboto" Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 62.5%;
+
+}
+
+/* .navcontainer{
+    border: 2px solid red;
+} */
+.header{
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navul ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navul ul li{
+
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.navul i{
+    font-size: 1.3rem;
+
+}
+.logotext h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+/* body container strat */
+.bodyminicontainer ,.longestminicontainer{
+    border: 0.2px solid rgb(200, 198, 198);
+        box-shadow: 1px 1px 1px 1px rgb(221, 217, 217);
+    /* border: 2px solid black; */
+    padding: 0px  0rem 0px 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.widthcontrol{
+    width: 900px;
+    margin: 0 auto;
+}
+.content h1{
+        font-size: 2.5rem;
+            font-weight: 500;
+}
+
+/* Ends body container */
+.bodycontainerimage img{
+border-radius: 0%;
+width: 30rem;
+}
+
+.longdatebutoon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.longcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.longcontent h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;
+    color: #646363;
+}
+
+.readmore a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.firstitem{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 900;
+}
+.long_container{
+    margin-top: 1.2rem;
+    /* border: 0.2px solid rgb(200, 198, 198);
+        box-shadow: 1px 1px 1px 1px rgb(221, 217, 217); */
+    /* border: 2px solid red; */
+}
+.long_content_cont{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgb(200, 198, 198);
+    border-radius: 0.2rem;
+    overflow: hidden;
+ 
+    margin: 1rem;
+    box-shadow: 1px 1px 1px 1px rgb(221, 217, 217);
+}
+.long_content_cont_img img{
+    width: 100%;
+}
+.itemcontent{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.7rem;
+    padding: 1rem;
+}
+.long_content_cont h1{
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+/* section */
+.imageset{
+      object-fit: cover;
+            height: 400px;
+            width: 100%;
+}
+.imageset img{
+height: 400px;
+}
+/*  */
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid rgb(200, 198, 198);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_content ul li{ 
+    /* text-decoration: none; */
+        list-style: none;
+
+    
+}
+.footer_content ul{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1rem;
+
+
+}
+.applyborder{
+    border: 1px solid black;
+        /* border: 0.2px solid rgb(200, 198, 198); */
+    box-shadow: 1px 1px 1px 1px rgb(221, 217, 217);
+
+}
+
+/*Page  Blog Section  */
+
+.intro{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+   
+ 
+}
+
+
+.contentimage img{
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+
+.intro h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+.titledate{
+display: flex;
+gap: 1rem;
+margin-bottom: 1.5rem;
+
+}
+
+.one_point_one_section{
+    display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+}
+.one_point_one_section h1{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+
+

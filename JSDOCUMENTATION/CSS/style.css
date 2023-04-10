@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    /* font-family: "Roboto" Georgia, 'Times New Roman', Times, serif; */
+
+scroll-behavior: smooth;
+
+}
+
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --para: 1.2rem;
+    --whitecolor: white;
+    --navheight: 3.2rem;
+    --width50: 55rem
+}
+.container{
+    display: flex;
+ 
+
+}
+.container h1{
+    
+font-size: 1.5rem;
+font-weight: bold;
+}
+.container p ,li{
+font-size: 1rem;
+
+color: rgb(67, 66, 66);
+}
+
+
+
+.title{
+    border: 1px solid black;
+}
+
+.asidecontaoner{
+ 
+   
+    height: 100vh;
+  
+    
+}
+.description_container{
+    /* border: 2px solid red; */
+    margin: 40px 2rem;
+}
+.asidecontaoner h1{
+    
+    padding: 0.6rem 1rem;
+    /* border-bottom: 1px solid black; */
+}
+
+.itemscontainer{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+  
+   
+}
+.asidecontaoner a{
+    
+    text-decoration: none;
+    color: black;
+}
+.asidecontaoner li{
+    padding: 0.6rem 1rem;
+    list-style: none;
+    color: rgb(103, 103, 103);
+border-bottom: 1px solid black;
+}
+.asidecontaoner li:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgb(210, 207, 207);
+}
+.NotesContainer{
+    /* border: 2px solid green; */
+flex-grow: 1;
+}
+
+.Intriduction h1{
+    
+    margin-bottom: 0.8rem;
+}
+.Intriduction li{
+    margin-left: 50px;
+}
+
+.why_you_should_already_know_section h1{
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+}
+.why_you_should_already_know_section li{
+ margin-left: 50px;
+ margin-bottom: 15px;
+}
+.JavaScript_and_Java_section h1{
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+}
+.hello_world_section h1{
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+}
+.variable_section h1{
+margin-bottom: 0.8rem;
+margin-top: 3rem;
+}

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+
+    font-family: 'Roboto', sans-serif; 
+    
+    /* font-family: "Roboto" Georgia, 'Times New Roman', Times, serif; */
+
+
+
+}
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --para: 1.2rem;
+    --whitecolor: white;
+    --navheight: 3.2rem;
+    --width50: 55rem
+}
+
+.navcontainer{
+   display: grid;
+
+  grid-template-columns: 0fr 1fr ;    
+
+}
+/* .main{
+    border: 2px solid red;
+} */
+
+.navigationbar{
+    margin-top: 20px;
+    height: 100vh;
+    /* border: 2px solid rgb(6, 246, 82); */
+}
+
+/* aside container strat */
+.aside{
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.aside p{
+    font-size: 0.8rem;
+}
+.alignicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* aside container Ends */
+.logo {
+   
+
+
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    object-fit: cover;
+    height:60px;
+    width: 100%;
+    
+}
+.logo img{
+   
+/* border: 2px solid blue; */
+  height: 30px;
+
+   
+ 
+   
+}
+/* .navhome_section{
+    border: 2px solid gray;
+
+} */
+
+.navplusrightbutton{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*  */
+
+/* 
+ */
+.navbar{
+    height: fit-content;
+    width: 600px;
+    align-items: center;
+  
+    display: flex;
+
+gap: 90px;
+
+
+}
+
+.rightnavicons{
+    height: fit-content;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.mic{
+    display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+width: auto;
+    height: 1.8rem;
+    width: 1.8rem;
+   
+    
+    background-color: rgb(203, 200, 200);
+}
+.mic img {
+    width: 1rem;
+    height: 1rem;
+    align-items: center;
+}
+.searchbutton{
+   align-items: center;
+    height: 1.8rem;
+    padding: 0.2rem  0.5rem;
+
+        background-color: rgb(203, 200, 200);
+
+    margin-right: 1rem;
+    }
+
+.searchbutton img{
+    height: 1.2rem;
+}
+
+.fieldplusicons{
+    display: flex;
+    justify-content: center;
+   
+}
+.textfield input{
+    padding:0.3rem 5rem;
+    /* border: 2px solid purple; */
+}
+/* Right Icons */
+.rightnavicons{
+    display: flex;
+    gap: 2rem;
+    padding-right: 1rem;
+}
+.chip {
+    margin-left: 5px;
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+  
+   
+}
+.chip h4{
+    font-size: 12px;
+}
+.chipdesign{
+    padding:0.3rem 1rem;
+    background-color:#b2b4b5;
+    border-radius: 24px;
+}
+.darkchip{
+    padding: 0.3rem 1rem;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+}
+.videos{
+  display: flex;
+  /* flex-direction: ; */
+flex-wrap: wrap;
+max-width: 100%;
+  gap: 1rem;
+
+    margin-top: 1rem;
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(219, 216, 216,0.8);
+}
+.image{
+    /* border: 2px solid greenyellow; */
+    height: 8rem;
+    object-fit: cover;
+    width: 100%;
+}
+.image img{
+    height: 8rem;
+   
+}
+
+.avatorplustitle{
+    padding-left: 5px;
+    width: 100%;
+    /* border: 2px solid var(--purple300); */
+    margin-top: 0.3rem;
+    display: flex;
+
+   gap: 0.5rem;
+   align-items: center;
+    
+}
+   .shareicon {
+       margin-left: auto;
+   }
+
+.channelname{
+    margin-left: 3.4rem;
+}
+.viewime{
+    display: flex;
+    gap: 1rem; 
+    margin-left: 3.4rem;
+}
+
+.minivideo p{
+    font-size: 0.5rem;
+}

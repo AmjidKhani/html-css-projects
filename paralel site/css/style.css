@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg,.pimg1,.pimg2{
+  
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.pimg{
+    min-height: 100vh;
+background-image: url("/paralel site/IMAGES/avenue-815297_1920.jpg");
+}
+.pimg1 {
+    min-height: 400px;
+    background-image: url("/paralel site/IMAGES/mountain-landscape-2031539_1920.jpg");
+}
+.pimg2 {
+    min-height: 400px;
+    background-image: url("/paralel site/IMAGES/railroad-163518_1280.jpg");
+}
+.ptext{
+    
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
+.pbg{
+    
+    background-color:black;
+    color: white;
+    height: 90px;
+    width: 90px;
+    padding: 20px 40px;
+
+    font-size: 27px;
+
+}
+.section{
+    padding: 20px 20px;
+    text-align:center;  
+}
+h1{
+  
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.light_section{
+    background-color: #f4f4f4;
+    color: #666;
+
+}
+.dark_section{
+    background-color: #282e34;
+        color: #ddd;
+}
+@media (min-width:0px) and (max-width: 431px){
+.ptext span{
+    font-size: 1rem;
+}
+}
